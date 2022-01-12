@@ -1,6 +1,8 @@
 import { connect } from "react-redux";
 import ThreadComponent from "./threadComponent";
+import {setPosts} from "../redux/setPosts";
 import setThreads from "../redux/setThreads";
+import {getThreadsThunkCreator} from "../redux/threadReducer";
 
 const mapStateToProps = (state) => {
     return {
@@ -8,14 +10,19 @@ const mapStateToProps = (state) => {
     }
 }
 
-const mapDispatchToProps = (dispatch) => {
+/*const mapDispatchToProps = (dispatch) => {
     return {
         setPosts: (board, threads) => {
-            dispatch(setThreads(board, threads))
-        }
+            console.log('вызвано');
+            dispatch(setThreads(board, threads));
+        },
+        getThreadsThunkCreator: getThreadsThunkCreator
     }
-}
+}*/
 
-const ThreadComponentContainer = connect(mapStateToProps, mapDispatchToProps)(ThreadComponent);
+const ThreadComponentContainer = connect(mapStateToProps, {
+    setThreads, getThreadsThunkCreator
+})(ThreadComponent);
+
 
 export default ThreadComponentContainer;
