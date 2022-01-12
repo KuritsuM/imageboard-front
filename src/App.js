@@ -1,25 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import {Routes, Route} from "react-router";
+import {Link} from "react-router-dom";
+import ThreadComponent from "./threads/threadComponent";
+import ThreadComponentContainer from "./threads/ThreadComponentContainer";
+import PostComponentContainer from "./posts/postComponentContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(props) {
+    return (
+        <>
+            <header>
+                <Link to={'/'}>Мочан</Link>
+                <Link to={'/po'}> po</Link>
+                <Link to={'/b'}> b</Link>
+            </header>
+            <Routes>
+                <Route path={'/'} element={<ThreadComponentContainer/>}/>
+                <Route path={'/:board'} element={<ThreadComponentContainer/>}/>
+                <Route path={'/:board/:id'} element={<PostComponentContainer/>}/>
+            </Routes>
+        </>
+    );
 }
 
 export default App;

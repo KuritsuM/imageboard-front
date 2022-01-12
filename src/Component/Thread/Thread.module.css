@@ -1,0 +1,50 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post {
+    display: block;
+    max-width: 786px;
+    box-sizing: content-box;
+    flex-direction: column;
+    margin: 3px 5px 5px 5px;
+    background-color: #236e95;
+    color: #e0e0e0;
+    border-radius: 4px;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.post_info {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.post_id {
+    margin-left: 5px;
+}
+
+.post_time {
+    margin-left: 7px;
+}
+
+.response {
+    text-decoration: none;
+    color: rgba(198, 129, 26, 0.84);
+}
+
+.post_text {
+    max-height: 200px;
+    overflow: auto;
+    padding: 16px;
+    display: block;
+}
+
+.post_toThread {
+
+}
+
+.tempStyle {width: 100px; height: 100px; background-color: red;}
