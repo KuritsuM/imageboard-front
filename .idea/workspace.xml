@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b28af27-bffd-4bcb-a3cb-bee6a3b13dbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/postComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/postsReducer.js" afterDir="false" />
-    </list>
+    <list default="true" id="4b28af27-bffd-4bcb-a3cb-bee6a3b13dbe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +73,7 @@
       <workItem from="1642020256261" duration="8040000" />
       <workItem from="1642095843952" duration="2171000" />
       <workItem from="1642098843769" duration="4521000" />
-      <workItem from="1642105384463" duration="1693000" />
+      <workItem from="1642105384463" duration="2006000" />
     </task>
     <servers />
   </component>
