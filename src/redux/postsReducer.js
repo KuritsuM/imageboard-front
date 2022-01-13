@@ -1,5 +1,7 @@
 import {SET_POSTS, setPosts} from "./setPosts";
-import {getPosts} from "../api/api";
+import {createPost, getPosts} from "../api/api";
+
+const ADD_POST = 'ADD_POST';
 
 export const postsReducer = (state = {}, action) => {
     switch (action.type) {
@@ -23,14 +25,40 @@ export const postsReducer = (state = {}, action) => {
 
             return stateCopy;
         }
+
+        case ADD_POST: {
+            let stateCopy = {...state};
+
+            stateCopy[action.board][action.thread].posts = [...stateCopy[action.board][action.thread].posts];
+            stateCopy[action.board][action.thread].posts.push(action.post);
+
+            return stateCopy;
+        }
     }
     return state;
 }
 
-export const getPostsThunkCreator = (board, thread) => {
+export const addPost = (board, thread, post) => {
+    return {
+        type: ADD_POST,
+        board: board,
+        thread: thread,
+        post: post
+    }
+};
+
+export const getPostsThunkCreator = (board, threadId) => {
     return dispatch => {
-        getPosts(thread).then(posts => {
-            dispatch(setPosts(board, thread, posts.data));
+        getPosts(threadId).then(posts => {
+            dispatch(setPosts(board, threadId, posts.data));
+        });
+    }
+}
+
+export const createPostThunkCreator = (board, threadId, post) => {
+    return dispatch => {
+        createPost(post).then(newPost => {
+            dispatch(addPost(board, threadId, newPost.data))
         });
     }
 }

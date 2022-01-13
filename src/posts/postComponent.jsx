@@ -4,6 +4,7 @@ import {useMatch} from "react-router";
 import axios from "axios";
 import Post from "../Component/Post/Post";
 import {getPosts} from "../api/api";
+import PostForm from "../Component/PostForm/PostForm";
 
 
 const PostComponent = (props) => {
@@ -49,6 +50,9 @@ const PostComponent = (props) => {
 
     return (
         <>
+            <PostForm board={match.params.board}
+                      threadId={match.params.thread}
+                      createPost={props.createPostThunkCreator}/>
             {thread}
             {posts}
         </>

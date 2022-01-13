@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b28af27-bffd-4bcb-a3cb-bee6a3b13dbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/postComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/postsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/setPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/setPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/threadReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/threadReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/threadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/threadComponent.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23bjU8yNmNobsaazJzwLsPZIg3m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imageboard" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -80,7 +76,10 @@
       <workItem from="1642012375876" duration="381000" />
       <workItem from="1642017949427" duration="658000" />
       <workItem from="1642018982694" duration="624000" />
-      <workItem from="1642020256261" duration="7379000" />
+      <workItem from="1642020256261" duration="8040000" />
+      <workItem from="1642095843952" duration="2171000" />
+      <workItem from="1642098843769" duration="4521000" />
+      <workItem from="1642105384463" duration="1693000" />
     </task>
     <servers />
   </component>

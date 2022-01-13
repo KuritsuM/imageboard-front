@@ -2,6 +2,7 @@ import {connect} from "react-redux";
 import PostComponent from "./postComponent";
 import {setPosts} from "../redux/setPosts";
 import {getPostsThunkCreator} from "../redux/postsReducer";
+import {createPostThunkCreator} from "../redux/postsReducer";
 
 const mapStateToProps = (state) => {
     return {
@@ -20,7 +21,8 @@ const mapStateToProps = (state) => {
 }*/
 
 const PostComponentContainer = connect(mapStateToProps, {
-    setPosts, getPostsThunkCreator
+    setPosts, getPostsThunkCreator,
+    createPostThunkCreator
 })(PostComponent);
 
 export default PostComponentContainer;
