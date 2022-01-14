@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import DragArea from "../dragArea/DragArea";
+import {uploadFiles} from "../../api/api";
 
 const PostForm = (props) => {
 
@@ -8,15 +10,29 @@ const PostForm = (props) => {
         theme: '',
         text: ''
     });
+    let [dragFiles, setDragFiles] = useState([]);
+
+    console.log(dragFiles);
 
     const handleSubmit = (event) => {
         event.preventDefault();
 
         let formForRequest = {...formState};
-        formForRequest['board'] = props.board;
-        formForRequest['threadId'] = props.threadId;
 
-        props.createPost(props.board, props.threadId, formForRequest);
+        uploadFiles(dragFiles)
+            .then(response => {
+                formForRequest['filenames'] = response.data.data.filenames;
+                formForRequest['board'] = props.board;
+
+                if (props.threadId !== undefined) {
+
+                    formForRequest['threadId'] = props.threadId;
+                    props.createPost(props.board, props.threadId, formForRequest);
+                } else {
+                    props.createThread(props.board, formForRequest);
+
+                }
+            });
     }
 
     const handleChange = (event) => {
@@ -27,7 +43,6 @@ const PostForm = (props) => {
         stateCopy[event.target.name] = event.target.value;
 
         setFormState(stateCopy);
-        console.log(formState);
     }
 
     return (
@@ -36,6 +51,7 @@ const PostForm = (props) => {
                 <input name={'name'} onChange={ handleChange } value={formState.name} />
                 <input name={'theme'} onChange={ handleChange } value={formState.theme} />
                 <textarea name={'text'} onChange={ handleChange } value={formState.text} />
+                <DragArea setFiles={ setDragFiles }/>
                 <input type={"submit"} value={formState.submit}/>
             </form>
         </>

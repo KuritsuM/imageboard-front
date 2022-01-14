@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 import ThreadComponent from "./threadComponent";
 import {setPosts} from "../redux/setPosts";
 import setThreads from "../redux/setThreads";
-import {getThreadsThunkCreator} from "../redux/threadReducer";
+import {getThreadsThunkCreator, createThreadThunkCreator} from "../redux/threadReducer";
 
 const mapStateToProps = (state) => {
     return {
@@ -21,7 +21,7 @@ const mapStateToProps = (state) => {
 }*/
 
 const ThreadComponentContainer = connect(mapStateToProps, {
-    setThreads, getThreadsThunkCreator
+    setThreads, getThreadsThunkCreator, createThreadThunkCreator
 })(ThreadComponent);
 
 

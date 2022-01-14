@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b28af27-bffd-4bcb-a3cb-bee6a3b13dbe" name="Default Changelist" comment="" />
+    <list default="true" id="4b28af27-bffd-4bcb-a3cb-bee6a3b13dbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/PostForm/PostForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Thread/Thread.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Thread/Thread.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/postComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/threadReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/threadReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/threadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/threadComponent.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +27,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="23bjU8yNmNobsaazJzwLsPZIg3m" />
   <component name="ProjectLevelVcsManager">
@@ -33,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../imageboard" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,7 +96,11 @@
       <workItem from="1642020256261" duration="8040000" />
       <workItem from="1642095843952" duration="2171000" />
       <workItem from="1642098843769" duration="4521000" />
-      <workItem from="1642105384463" duration="2006000" />
+      <workItem from="1642105384463" duration="2930000" />
+      <workItem from="1642166229046" duration="888000" />
+      <workItem from="1642167874055" duration="710000" />
+      <workItem from="1642177822480" duration="2206000" />
+      <workItem from="1642181083695" duration="8858000" />
     </task>
     <servers />
   </component>

@@ -35,12 +35,14 @@ const PostComponent = (props) => {
 
         thread = <Post id={thisThread.id}
                        created_at={thisThread.created_at}
-                       text={thisThread.text}/>;
+                       text={thisThread.text}
+                       file1={thisThread.file1}/>;
 
         posts = thisThread.posts.map(post => {
             return <Post key={post.id} id={post.id}
                          text={post.text}
-                         created_at={post.created_at}/>;
+                         created_at={post.created_at}
+                         file1={post.file1}/>;
         });
     } catch (e) {
         //* ignore *
