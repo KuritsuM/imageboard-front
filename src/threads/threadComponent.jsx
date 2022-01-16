@@ -24,13 +24,19 @@ const ThreadComponent = (props) => {
                     created_at={props.board[currentLocation][thread].created_at}
                     text={props.board[currentLocation][thread].text}
                     file1={props.board[currentLocation][thread].file1}
+                    location={currentLocation}
+                    addFormText={props.addTextToForm}
             />
         );
     }
 
     return (
         <>
-            <PostForm board={currentLocation} createThread={props.createThreadThunkCreator}/>
+            <PostForm board={currentLocation}
+                      createThread={props.createThreadThunkCreator}
+                      location={currentLocation}
+                      formState={props.forms}
+                      formUpdate={props.formUpdate}/>
             {threads}
         </>
     )

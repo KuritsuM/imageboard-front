@@ -8,11 +8,15 @@ import FileHandler from "../media/Media";
 const Thread = (props) => {
     const currentLocation = useLocation();
 
+    const handleClick = (event) => {
+        props.addFormText(props.location, ''.concat('>>>', event.target.textContent.toString()));
+    }
+
     return (
         <>
             <div className={threadCss.post}>
                 <div className={threadCss.post_info}>
-                    <div className={threadCss.post_id}>
+                    <div onClick={handleClick} className={threadCss.post_id}>
                         {props.id}
                     </div>
                     <div className={threadCss.post_time}>

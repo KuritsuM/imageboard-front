@@ -3,10 +3,12 @@ import ThreadComponent from "./threadComponent";
 import {setPosts} from "../redux/setPosts";
 import setThreads from "../redux/setThreads";
 import {getThreadsThunkCreator, createThreadThunkCreator} from "../redux/threadReducer";
+import {addTextToForm, formUpdate} from "../redux/formReducer";
 
 const mapStateToProps = (state) => {
     return {
-        board: state.threads
+        board: state.threads,
+        forms: state.forms
     }
 }
 
@@ -21,7 +23,8 @@ const mapStateToProps = (state) => {
 }*/
 
 const ThreadComponentContainer = connect(mapStateToProps, {
-    setThreads, getThreadsThunkCreator, createThreadThunkCreator
+    setThreads, getThreadsThunkCreator, createThreadThunkCreator,
+    addTextToForm, formUpdate
 })(ThreadComponent);
 
 

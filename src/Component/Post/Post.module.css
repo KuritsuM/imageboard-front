@@ -25,6 +25,7 @@
 
 .post_id {
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .post_time {

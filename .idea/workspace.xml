@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b28af27-bffd-4bcb-a3cb-bee6a3b13dbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/formReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Post/Post.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/PostForm/PostForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Thread/Thread.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Thread/Thread.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Thread/Thread.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Thread/Thread.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/postComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/threadReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/threadReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threads/threadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/threadComponent.jsx" afterDir="false" />
     </list>
@@ -26,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +103,9 @@
       <workItem from="1642166229046" duration="888000" />
       <workItem from="1642167874055" duration="710000" />
       <workItem from="1642177822480" duration="2206000" />
-      <workItem from="1642181083695" duration="8858000" />
+      <workItem from="1642181083695" duration="9205000" />
+      <workItem from="1642251675129" duration="346000" />
+      <workItem from="1642282826166" duration="11499000" />
     </task>
     <servers />
   </component>
