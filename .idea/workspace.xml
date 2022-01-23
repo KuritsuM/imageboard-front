@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b28af27-bffd-4bcb-a3cb-bee6a3b13dbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/formReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Post/Post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/PostForm/PostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Thread/Thread.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Thread/Thread.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Thread/Thread.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Thread/Thread.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/postComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/postComponentContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/redux-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadComponentContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/threadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/threadComponent.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +97,9 @@
       <workItem from="1642177822480" duration="2206000" />
       <workItem from="1642181083695" duration="9205000" />
       <workItem from="1642251675129" duration="346000" />
-      <workItem from="1642282826166" duration="11499000" />
+      <workItem from="1642282826166" duration="11551000" />
+      <workItem from="1642618321118" duration="2779000" />
+      <workItem from="1642939782105" duration="9966000" />
     </task>
     <servers />
   </component>
