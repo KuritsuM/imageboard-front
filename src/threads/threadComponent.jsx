@@ -4,6 +4,7 @@ import axios from "axios";
 import Thread from "../Component/Thread/Thread";
 import {getThreads} from "../api/api";
 import PostForm from "../Component/PostForm/PostForm";
+import ModerationFormComponent from "../Component/moderationForm/ModerationFormComponent";
 
 const ThreadComponent = (props) => {
     let threads = [];
@@ -32,6 +33,7 @@ const ThreadComponent = (props) => {
 
     return (
         <>
+            <ModerationFormComponent />
             <PostForm board={currentLocation}
                       createThread={props.createThreadThunkCreator}
                       location={currentLocation}

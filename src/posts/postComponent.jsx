@@ -6,7 +6,7 @@ import Post from "../Component/Post/Post";
 import {getPosts} from "../api/api";
 import PostForm from "../Component/PostForm/PostForm";
 import Thread from "../Component/Thread/Thread";
-
+import ModerationFormComponent from "../Component/moderationForm/ModerationFormComponent";
 const PostComponent = (props) => {
     console.log(props);
     const currentLocation = useLocation().pathname.split('/');
@@ -15,14 +15,8 @@ const PostComponent = (props) => {
     let match = useMatch('/:board/:thread');
 
     useEffect(() => {
-        /*getPosts(match.params.thread)
-            .then(response => {
-                console.log(response);
-                let resp = response.data;
-                props.setPosts(resp.board, resp.thread, resp.posts);
-            })*/
         props.getPostsThunkCreator(match.params.board, match.params.thread);
-    }, [currentLocation2.pathname]);
+    }, [currentLocation2.pathname, props.login.isAuth]);
     let thread = null;
 
     let posts = [];
@@ -52,6 +46,7 @@ const PostComponent = (props) => {
 
     return (
         <>
+            <ModerationFormComponent />
             <PostForm board={match.params.board}
                       threadId={match.params.thread}
                       createPost={props.createPostThunkCreator}

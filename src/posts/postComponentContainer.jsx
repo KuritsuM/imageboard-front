@@ -4,12 +4,14 @@ import {setPosts} from "../redux/setPosts";
 import {getPostsThunkCreator} from "../redux/postsReducer";
 import {createPostThunkCreator} from "../redux/postsReducer";
 import {formUpdate, addTextToForm} from "../redux/formReducer";
+import {formLogin, reloginThunkCreator} from "../redux/loginReducer";
 
 const mapStateToProps = (state) => {
     return {
         posts: state.posts,
         forms: state.forms,
-        state: state
+        state: state,
+        login: state.login
     }
 }
 

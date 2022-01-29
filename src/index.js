@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
 import store from "./redux/redux-state";
 import {BrowserRouter} from "react-router-dom";
+import {injectStore} from "./api/apiInterceptors";
+
+injectStore(store);
 
 ReactDOM.render(
     <React.StrictMode>

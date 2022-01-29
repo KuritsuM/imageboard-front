@@ -1,6 +1,7 @@
 import React from "react";
 import postCss from './Post.module.css'
 import FileHandler from "../media/Media";
+import HOModerationCheckboxContainer from "../moderationForm/HOModerationCheckboxContainer";
 
 const Post = (props) => {
     const handleClick = (event) => {
@@ -12,6 +13,7 @@ const Post = (props) => {
     return (
         <>
             <div className={postCss.post}>
+                <HOModerationCheckboxContainer type={'post'} id={props.id}/>
                 <div className={postCss.post_info}>
                     <div className={postCss.post_id} onClick={handleClick}>
                         {props.id}
